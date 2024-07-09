@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
-
-
 export const StyledNavbar = styled.nav`
-  background-color: rgba(53, 47, 68, 0.5); /* Custom background color */
-  
+  background-color: rgba(53, 47, 68, 0.9); /* Custom background color */
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+
   font-family: 'Roboto';
   .navbar-brand{
     font-size: 2rem;

@@ -1,16 +1,25 @@
-import { HeroSection } from "./styles";
+import { HeroImage, HeroSection } from "./styles";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Header = () => {
   return (
     <div>
       <HeroSection className="light hero" >
         <div className="heroInner" >
-          <span>
-            <h1>Hi! I'm Erick Lima :) </h1>
+          <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Hi! <br /> I'm Erick Lima 😊</h1>
             <a href="#" className="btn btn-light" >
               Download Resume
             </a>
-          </span>
+
+          </div>
+          <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <HeroImage src="../../../public/profileRound.jpg">
+            </HeroImage>
+          </div>
         </div>
       </HeroSection>
     </div>

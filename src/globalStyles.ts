@@ -48,4 +48,5 @@ button {
 .btn:active {
   transform: scale(0.95);
 }`
+
 export default GlobalStyle;
