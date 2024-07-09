@@ -1,12 +1,15 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { SectionA } from './styles';
 
-const SectionAos = ({ id, title, children, backgroundColor }) => {
+const SectionAos = ({ id, title, subtitle, children, backgroundColor }) => {
   return (
-    <section id={id} style={{ backgroundColor, padding: '15rem 3rem 6rem' }}>
+    <SectionA id={id} style={{ backgroundColor }}>
       <h2>{title}</h2>
-      {children}
-    </section>
+      <h2>{subtitle}</h2>
+      <p>{children}</p>
+    </SectionA>
+
   );
 };
 

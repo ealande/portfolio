@@ -9,20 +9,23 @@ export const HeroSection = styled.section`
   height: fit-content;
   color: #fafafc;
   padding: 15rem 3rem 6rem;
+
   .heroInner {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
+      a{ border-radius: 20px;}
    }
   h1 {
     font-weight: 900;
     font-size: clamp(2rem, 5.5vw, 3.25rem);
     line-height: 1.2;
+    margin-top: 10rem;
     margin-bottom: 1.5rem;
     background: rgba(0, 0, 0, 0.5);
-
   }
+
   @media (max-width: 576px) {
     background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent),
       url(../../../public/hero.jpg);
@@ -38,8 +41,10 @@ export const HeroSection = styled.section`
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
-   }
-  }
+    
+      h1 {margin-top: 0px;}  
+ }
+}
 `;
 
 export const HeroImage = styled.img`
