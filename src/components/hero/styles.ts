@@ -15,15 +15,29 @@ export const HeroSection = styled.section`
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
-      a{ border-radius: 20px;}
+      a{
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        }
+    a:hover {
+    background-color: #0056b3}
    }
+    
   h1 {
+    position: relative;
     font-weight: 900;
     font-size: clamp(2rem, 5.5vw, 3.25rem);
     line-height: 1.2;
     margin-top: 10rem;
     margin-bottom: 1.5rem;
     background: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    
   }
 
   @media (max-width: 576px) {
@@ -52,6 +66,8 @@ export const HeroImage = styled.img`
     border-radius: 50%;
     object-fit: fit;
     max-height: 25rem;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 
   @media (max-width: 576px) {
     margin-top: 50px;
