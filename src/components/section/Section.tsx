@@ -7,7 +7,7 @@ const SectionAos = ({ id, title, subtitle, children, backgroundColor }) => {
     <SectionA data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" id={id} style={{ backgroundColor }}>
       <h2>{title}</h2>
       <h2>{subtitle}</h2>
-      <p>{children}</p>
+      <p className='techs'>{children}</p>
     </SectionA>
 
   );

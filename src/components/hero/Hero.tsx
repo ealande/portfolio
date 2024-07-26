@@ -10,15 +10,15 @@ const Header = () => {
       <HeroSection className="light hero" >
         <div className="heroInner" >
           <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <HeroImage src="../../../public/profileRound.jpg">
+            </HeroImage>
+          </div>
+          <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
             <h1>Hi! <br /> I'm Erick Lima 😊</h1>
             <a href="#" className="btn btn-light" >
               Download Resume
             </a>
 
-          </div>
-          <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-            <HeroImage src="../../../public/profileRound.jpg">
-            </HeroImage>
           </div>
         </div>
       </HeroSection>

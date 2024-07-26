@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledNavbar = styled.nav`
-  background-color: rgba(53, 47, 68, 0.9); /* Custom background color */
+  background-color: rgba(80, 200, 120, 0.9); /* Custom background color */
   position: fixed;
   z-index: 1000;
   width: 100%;
@@ -15,14 +15,14 @@ export const StyledNavbar = styled.nav`
     color:#ffffff;
   },
   .nav-link {
-    color: #5c5470;  /* Custom text color */
+    color: #98FF98;  /* Custom text color */
     font-size: 1.5rem; 
     margin-right: 1.5rem;
     padding: 8px;
     border-radius:12px; 
       
       &:hover {
-      color: #ececec; /* Custom hover color */
+      color: #E0FFF5; /* Custom hover color */
       transition-duration: 700ms;
 
     }

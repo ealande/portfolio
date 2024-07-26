@@ -16,7 +16,7 @@ export const HeroSection = styled.section`
     margin: 0 auto;
     justify-content: space-between;
       a{
-        background-color: #007bff;
+        background-color: #6CD3A1;
         color: #fff;
         padding: 10px 20px;
         border: none;
@@ -24,7 +24,7 @@ export const HeroSection = styled.section`
         transition: background-color 0.3s ease;
         }
     a:hover {
-    background-color: #0056b3}
+    background-color: #A4F9C8}
    }
     
   h1 {
@@ -40,7 +40,7 @@ export const HeroSection = styled.section`
     
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 900px) {
     background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent),
       url(../../../public/hero.jpg);
     background-position: center, bottom left;
