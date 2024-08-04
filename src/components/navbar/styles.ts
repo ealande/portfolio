@@ -15,14 +15,15 @@ export const StyledNavbar = styled.nav`
     color:#ffffff;
   },
   .nav-link {
-    color: #98FF98;  /* Custom text color */
+    color: #E0FFF5; /* Custom text color */
+    box-shadow: 2px;
     font-size: 1.5rem; 
     margin-right: 1.5rem;
     padding: 8px;
     border-radius:12px; 
-      
+    text-shadow: 2px 2px 8px #000000;
       &:hover {
-      color: #E0FFF5; /* Custom hover color */
+      color: #98FF98; /* Custom hover color */
       transition-duration: 700ms;
 
     }

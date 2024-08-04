@@ -59,7 +59,7 @@ const Root = () => {
         </div>
       </SectionAos>
 
-      <SectionAos id="experience" title="Project" subtitle="subtitle" backgroundColor="#DFF8E1"><GitHubRepo /><p>Texto</p></SectionAos>
+      <SectionAos id="projects" title="Project" subtitle="subtitle" backgroundColor="#DFF8E1"><GitHubRepo /><p>Texto</p></SectionAos>
 
       <Footer />
     </>

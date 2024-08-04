@@ -19,7 +19,7 @@ const NavBar = () => {
             <a className="nav-link" href="https://www.github.com/ealande">GitHub</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Projects</a>
+            <a className="nav-link" href="#projects">Projects</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Education</a>
