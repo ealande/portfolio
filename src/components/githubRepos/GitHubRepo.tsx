@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { GitImg, Languages, ProjectLink, RepoBox, RepoContainer } from './styles';
 
 const GitHubRepo = () => {
   const [repos, setRepos] = useState([]);
@@ -18,7 +19,6 @@ const GitHubRepo = () => {
         });
         const reposData = response.data;
 
-        // Fetch languages for each repository
         const reposWithLanguages = await Promise.all(reposData.map(async (repo) => {
           const languagesResponse = await axios.get(repo.languages_url, {
             headers: {
@@ -44,19 +44,19 @@ const GitHubRepo = () => {
 
   return (
     <div>
-      <h1>My Public Repositories</h1>
-      <ul>
+      <h1>My Pinned Repositories</h1>
+      <RepoContainer>
         {repos.map(repo => (
-          <li key={repo.id}>
-            <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+          <RepoBox key={repo.id}>
+            <GitImg src="../../../public/github-svgrepo-com.svg" />
+            <ProjectLink href={repo.html_url} target="_blank" rel="noopener noreferrer">
               {repo.name}
-            </a>
+            </ProjectLink>
             <p>{repo.description}</p>
-            <p>Stars: {repo.stargazers_count}</p>
-            <p>Languages: {Object.keys(repo.languages).join(', ')}</p>
-          </li>
+            <Languages>Languages: {Object.keys(repo.languages).join(', ')}</Languages>
+          </RepoBox>
         ))}
-      </ul>
+      </RepoContainer>
     </div>
   );
 };
