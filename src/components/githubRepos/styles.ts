@@ -6,8 +6,9 @@ export const RepoBox = styled.div`
   padding: 16px;
   margin: 20px 8px 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 256px;
-  
+  width: 256px; 
+  background-color: #E0FFF5;
+
   &:hover{
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -36,12 +37,11 @@ export const Languages = styled.p`
 `;
 
 export const ProjectLink = styled.a`
-  color: #1a73e8;
+  color: #98FF98;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   text-align: justify;
-
   &:hover {
     text-decoration: underline;
   }

@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const StyledNavbar = styled.nav`
-  background-color: rgba(80, 200, 120, 0.9); /* Custom background color */
+  background-color: rgba(80, 200, 120, 0.5); /* Custom background color */
   position: fixed;
   z-index: 1000;
   width: 100%;
-
+  backdrop-filter: blur(4px);
   font-family: 'Roboto';
   .navbar-brand{
     font-size: 2rem;
@@ -21,7 +21,6 @@ export const StyledNavbar = styled.nav`
     margin-right: 1.5rem;
     padding: 8px;
     border-radius:12px; 
-    text-shadow: 2px 2px 8px #000000;
       &:hover {
       color: #98FF98; /* Custom hover color */
       transition-duration: 700ms;
