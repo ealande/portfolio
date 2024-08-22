@@ -5,7 +5,7 @@ export const StyledNavbar = styled.nav`
   position: fixed;
   z-index: 1000;
   width: 100%;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
   font-family: 'Roboto';
   .navbar-brand{
     font-size: 2rem;
@@ -45,6 +45,4 @@ export const StyledNavbar = styled.nav`
     display: flex;
     align-items: center;
   }
-  
-
-`;
+`

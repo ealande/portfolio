@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-
-export const Title = styled.h2`
-
-`
-
 export const SectionA = styled.section`
   padding: 5rem 3rem 6rem;
    h2 {
@@ -15,7 +10,6 @@ export const SectionA = styled.section`
     line-height: 1.2;
     margin-top: 0rem;
     margin-bottom: 1.5rem;
-    background: rgba(108, 211, 161, 0.1);
 
 }
 `
