@@ -33,11 +33,14 @@ export const HeroSection = styled.section`
     font-size: clamp(2rem, 5.5vw, 3.25rem);
     line-height: 1.2;
     margin-top: 10rem;
-    margin-bottom: 1.5rem;
     background: rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 1;
     
+  }
+
+  h2  {
+    margin-bottom: 1.5rem;
   }
 
   @media (max-width: 900px) {

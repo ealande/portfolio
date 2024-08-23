@@ -20,7 +20,7 @@ const Root = () => {
 
       <Header />
 
-      <SectionAos id="about" title="Full Stack Web Developer" subtitle="and an eager learner 📚" backgroundColor="#E0FFF5" >
+      <SectionAos id="about" title="" subtitle="" backgroundColor="#E0FFF5" >
         <p className='toolSetTitle'>My Toolset</p>
         <div className='techsContainer'>
           <Techs imageslink="../../public/c.svg"></Techs>
@@ -48,14 +48,14 @@ const Root = () => {
               <h4>Latest News</h4>
               <ul className="timeline">
                 <li>
-                  <a target="_blank" href="">Bachelor's Degree in Computer Engineering</a>
-                  <a href="#" className="float-end"> Jan/2023 - Dec/2026 (expected)</a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                </li>
-                <li>
                   <a href="#">Specialization in Web Development with Modern Frameworks</a>
                   <a href="#" className="float-end"> Aug/2023 - Aug/2025 (expected)</a>
                   <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                </li>
+                <li>
+                  <a target="_blank" href="">Bachelor's Degree in Computer Engineering</a>
+                  <a href="#" className="float-end"> Jan/2023 - Dec/2026 (expected)</a>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
                 </li>
                 <li>
                   <a href="#">Full Stack Java Developer</a>
