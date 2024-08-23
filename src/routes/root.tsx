@@ -45,22 +45,21 @@ const Root = () => {
         <div className="container mt-5 mb-5">
           <div className="row">
             <div className="col-md-6 offset-md-3">
-              <h4>Latest News</h4>
               <ul className="timeline">
                 <li>
                   <a href="#">Specialization in Web Development with Modern Frameworks</a>
                   <a href="#" className="float-end"> Aug/2023 - Aug/2025 (expected)</a>
-                  <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                  <p>This specialization, offered by the Federal University of Technology - Paraná (UTFPR), consists of 360 hours dedicated to exploring frameworks such as Spring, Angular, React, Vue, and Ember. The course also covers Agile methodologies, security, database design, architecture, and deployment, providing comprehensive knowledge of the essential tools needed to become a proficient web developer.</p>
                 </li>
                 <li>
                   <a target="_blank" href="">Bachelor's Degree in Computer Engineering</a>
                   <a href="#" className="float-end"> Jan/2023 - Dec/2026 (expected)</a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                  <p>As I reach the halfway point of my Computer Engineering course, I’ve had the opportunity to work with both hardware and software, gaining hands-on experience. I’m thoroughly enjoying learning the fundamental principles behind the technologies I work with, which continue to deepen my understanding and problem-solving abilities.</p>
                 </li>
                 <li>
                   <a href="#">Full Stack Java Developer</a>
                   <a href="#" className="float-end"> Oct/2022 - Apr/2024</a>
-                  <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                  <p>This course equipped me with the skills to work as a full-stack developer by covering everything from the basics to advanced levels of software development. I gained proficiency in HTML, CSS, and vanilla JavaScript, as well as in frameworks like Angular, Vue, and React. Additionally, I learned to use CSS preprocessors such as Less and Sass, and studied design patterns in Java for back-end development.</p>
                 </li>
               </ul>
             </div>

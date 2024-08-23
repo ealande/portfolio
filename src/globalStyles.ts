@@ -66,6 +66,10 @@ a {
   text-decoration: none;
   font-weight: bold;
   }
+
+p {
+  text-align: justify;
+}
 }
 ul.timeline:before {
     content: ' ';
