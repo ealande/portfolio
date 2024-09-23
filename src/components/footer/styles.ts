@@ -5,6 +5,7 @@ export const FooterEnd = styled.footer`
   padding: 20px 0;
   text-align: center;
   p {
+    color: #333333;
     margin: 0;
     font-size: 16px;
     font-weight: 400;

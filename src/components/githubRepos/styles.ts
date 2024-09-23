@@ -1,15 +1,17 @@
+
 import styled from "styled-components";
 
 export const RepoBox = styled.div`
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
-  margin: 20px 8px 8px;
+  margin: 1rem 1rem 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 256px; 
   background-color: #E0FFF5;
+  flex: 1 1 256px;
+  max-width: 256px;
 
-  &:hover{
+  &:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
@@ -26,8 +28,8 @@ export const RepoContainer = styled.ul`
   justify-content: space-between;
 
   @media (max-width: 1000px) {
-    display: block;
-}
+    justify-content: center; /* Center items on smaller screens */
+  }
 `;
 
 export const Languages = styled.p`
@@ -42,7 +44,9 @@ export const ProjectLink = styled.a`
   font-size: 18px;
   font-weight: bold;
   text-align: justify;
+
   &:hover {
     text-decoration: underline;
   }
 `;
+

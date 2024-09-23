@@ -1,13 +1,14 @@
 import 'aos/dist/aos.css';
 import { SectionA } from './styles';
-import { ReactNode } from 'react'; // Import ReactNode
+import { ReactNode } from 'react';
 
 interface SectionProps {
   id: string;
   title: string;
   subtitle: string;
-  children?: ReactNode; // Change this line
+  children?: ReactNode;
   backgroundColor: string;
+
 }
 
 const SectionAos: React.FC<SectionProps> = ({

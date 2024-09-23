@@ -16,6 +16,9 @@ const GitHubRepo: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
+  const paddingZero = {
+    padding: "0 0 0 0"
+  }
 
   useEffect(() => {
     const fetchRepos = async () => {
@@ -56,7 +59,7 @@ const GitHubRepo: React.FC = () => {
 
   return (
     <div>
-      <RepoContainer>
+      <RepoContainer style={paddingZero}>
         {repos.map(repo => (
           <RepoBox key={repo.id}>
             <GitImg src="/github-svgrepo-com.svg" />
