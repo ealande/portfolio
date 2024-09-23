@@ -31,16 +31,13 @@ const NavBar = () => {
               <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blog</a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="https://www.github.com/ealande">GitHub</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
+              <a className="nav-link" href="#education">Education</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#education">Education</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
               <button className="nav-link" style={buttonLinkStyle} onClick={handleEmailCopy} >
