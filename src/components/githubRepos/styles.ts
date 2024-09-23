@@ -37,7 +37,7 @@ export const Languages = styled.p`
 `;
 
 export const ProjectLink = styled.a`
-  color: #98FF98;
+  color: #6CD3A1;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
