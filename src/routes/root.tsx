@@ -39,7 +39,7 @@ const Root = () => {
         </div>
       </SectionAos>
 
-      <SectionAos id="education" title="Education" backgroundColor="#78D5A3">
+      <SectionAos id="education" title="Education" subtitle="" backgroundColor="#78D5A3">
 
         <div className="container mt-5 mb-5">
           <div className="row">

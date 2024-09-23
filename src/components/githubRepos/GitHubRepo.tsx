@@ -1,36 +1,48 @@
-
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { GitImg, Languages, ProjectLink, RepoBox, RepoContainer } from './styles';
 
-const GitHubRepo = () => {
-  const [repos, setRepos] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+interface Repo {
+  id: number;
+  name: string;
+  description: string;
+  html_url: string;
+  languages_url: string;
+  languages?: Record<string, any>;
+}
+
+const GitHubRepo: React.FC = () => {
+  const [repos, setRepos] = useState<Repo[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
   const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
 
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const response = await axios.get('https://api.github.com/users/ealande/repos', {
+        const response = await axios.get<Repo[]>('https://api.github.com/users/ealande/repos', {
           headers: {
-            Authorization: `token ${GITHUB_TOKEN}`
-          }
+            Authorization: `token ${GITHUB_TOKEN}`,
+          },
         });
         const reposData = response.data;
 
         const reposWithLanguages = await Promise.all(reposData.map(async (repo) => {
-          const languagesResponse = await axios.get(repo.languages_url, {
+          const languagesResponse = await axios.get<Record<string, any>>(repo.languages_url, {
             headers: {
-              Authorization: `token ${GITHUB_TOKEN}`
-            }
+              Authorization: `token ${GITHUB_TOKEN}`,
+            },
           });
           return { ...repo, languages: languagesResponse.data };
         }));
 
         setRepos(reposWithLanguages);
-      } catch (error) {
-        setError(error.message);
+      } catch (err) {
+        if (axios.isAxiosError(err)) {
+          setError(err.message);
+        } else {
+          setError("An unexpected error occurred");
+        }
       } finally {
         setLoading(false);
       }
@@ -52,7 +64,7 @@ const GitHubRepo = () => {
               {repo.name}
             </ProjectLink>
             <p>{repo.description}</p>
-            <Languages>Languages: {Object.keys(repo.languages).join(', ')}</Languages>
+            <Languages>Languages: {repo.languages ? Object.keys(repo.languages).join(', ') : 'N/A'}</Languages>
           </RepoBox>
         ))}
       </RepoContainer>
