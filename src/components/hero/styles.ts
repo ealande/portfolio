@@ -46,7 +46,7 @@ export const HeroSection = styled.section`
   @media (max-width: 900px) {
     background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent),
       url(/hero.jpg);
-    background-position: center, bottom left;
+    background-position: center, bottom;
     background-size: cover;
     align-items: flex-start;
     padding-top: 7.5rem;
