@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const HeroSection = styled.section`
   background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem),
-    url(../../../public/hero.jpg);
+    url(/hero.jpg);
   background-position: center, bottom left;
   background-size: cover, cover;
   height: fit-content;
@@ -32,7 +32,7 @@ export const HeroSection = styled.section`
     font-weight: 900;
     font-size: clamp(2rem, 5.5vw, 3.25rem);
     line-height: 1.2;
-    margin-top: 10rem;
+    margin-top: 1rem;
     background: rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 1;
@@ -45,21 +45,24 @@ export const HeroSection = styled.section`
 
   @media (max-width: 900px) {
     background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent),
-      url(../../../public/hero.jpg);
+      url(/hero.jpg);
     background-position: center, bottom left;
     background-size: cover, cover;
     align-items: flex-start;
     padding-top: 7.5rem;
     height: 75vh;
-    max-height: 720px;
-    
+    max-height: 720px; 
+    padding: 5rem 3rem 6rem;
+
     .heroInner {
     display: block;
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
     
-      h1 {margin-top: 0px;}  
+      h1 {
+        margin-top: 0px;
+        }  
  }
 }
 `;
@@ -73,7 +76,7 @@ export const HeroImage = styled.img`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 
   @media (max-width: 576px) {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
 `

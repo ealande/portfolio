@@ -44,11 +44,10 @@ const GitHubRepo = () => {
 
   return (
     <div>
-      <h1>My Pinned Repositories</h1>
       <RepoContainer>
         {repos.map(repo => (
           <RepoBox key={repo.id}>
-            <GitImg src="../../../public/github-svgrepo-com.svg" />
+            <GitImg src="/github-svgrepo-com.svg" />
             <ProjectLink href={repo.html_url} target="_blank" rel="noopener noreferrer">
               {repo.name}
             </ProjectLink>

@@ -20,27 +20,26 @@ const Root = () => {
 
       <Header />
 
-      <SectionAos id="about" title="" subtitle="" backgroundColor="#E0FFF5" >
-        <p className='toolSetTitle'>My Toolset</p>
+      <SectionAos id="about" title="My Toolset" subtitle="" backgroundColor="#E0FFF5" >
         <div className='techsContainer'>
-          <Techs imageslink="../../public/c.svg"></Techs>
-          <Techs imageslink="../../public/angular.svg"></Techs>
-          <Techs imageslink="../../public/react.svg"></Techs>
-          <Techs imageslink="../../public/redux.svg"></Techs>
-          <Techs imageslink="../../public/typescript.svg"></Techs>
-          <Techs imageslink="../../public/linux.svg"></Techs>
-          <Techs imageslink="../../public/docker.svg"></Techs>
-          <Techs imageslink="../../public/java.svg"></Techs>
-          <Techs imageslink="../../public/postgresql.svg"></Techs>
-          <Techs imageslink="../../public/html.svg"></Techs>
-          <Techs imageslink="../../public/css.svg"></Techs>
-          <Techs imageslink="../../public/bootstrap.svg"></Techs>
-          <Techs imageslink="../../public/git.svg"></Techs>
-          <Techs imageslink="../../public/insomnia.svg"></Techs>
+          <Techs imageslink="/c.svg"></Techs>
+          <Techs imageslink="/angular.svg"></Techs>
+          <Techs imageslink="/react.svg"></Techs>
+          <Techs imageslink="/redux.svg"></Techs>
+          <Techs imageslink="/typescript.svg"></Techs>
+          <Techs imageslink="/linux.svg"></Techs>
+          <Techs imageslink="/docker.svg"></Techs>
+          <Techs imageslink="/java.svg"></Techs>
+          <Techs imageslink="/postgresql.svg"></Techs>
+          <Techs imageslink="/html.svg"></Techs>
+          <Techs imageslink="/css.svg"></Techs>
+          <Techs imageslink="/bootstrap.svg"></Techs>
+          <Techs imageslink="/git.svg"></Techs>
+          <Techs imageslink="/insomnia.svg"></Techs>
         </div>
       </SectionAos>
 
-      <SectionAos id="experience" title="Education" backgroundColor="#78D5A3">
+      <SectionAos id="education" title="Education" backgroundColor="#78D5A3">
 
         <div className="container mt-5 mb-5">
           <div className="row">
@@ -68,7 +67,7 @@ const Root = () => {
 
       </SectionAos>
 
-      <SectionAos id="projects" title="Project" subtitle="subtitle" backgroundColor="#DFF8E1"><GitHubRepo /></SectionAos>
+      <SectionAos id="projects" title="Projects" subtitle="" backgroundColor="#DFF8E1"><GitHubRepo /></SectionAos>
 
       <Footer />
     </>

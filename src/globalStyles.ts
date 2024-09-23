@@ -4,19 +4,22 @@ const GlobalStyle = createGlobalStyle`
 *,
 *:: before,
 *::after {
+
  }
 
 html {
   overflow-y: scroll;
 }
 
+
 body {
-  font-family: Roboto, Open - Sans, Helvetica, Sans - Serif;
+  font-family: 'Roboto', Open-Sans, Helvetica, Sans-Serif;
   line-height: 1.5;
-  -webkit - tap - highlight - color: transparent;
+  -webkit-tap-highlight-color: transparent; /* No spaces between! */
   font-size: 1rem;
   background-color: #dbd8e3;
 }
+
 
 button {
   font-family: inherit;
