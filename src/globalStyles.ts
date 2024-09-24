@@ -17,7 +17,7 @@ body {
   line-height: 1.5;
   -webkit-tap-highlight-color: transparent; /* No spaces between! */
   font-size: 1rem;
-  background-color: #dbd8e3;
+  background-color: #E0FFF5;
 }
 
 
