@@ -4,7 +4,7 @@ import viteImagemin from 'vite-plugin-imagemin'
 
 export default defineConfig({
   //change port for production
-  base: '/';
+  base: '/',
   plugins: [react(),
   viteImagemin({
     gifsicle: {
