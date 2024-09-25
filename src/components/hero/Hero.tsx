@@ -1,7 +1,7 @@
 import { HeroImage, HeroSection } from "./styles";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import profileImage from '/profileRound.jpg'
+import profileImage from '../../assets/profileRound.jpg';
 
 AOS.init();
 

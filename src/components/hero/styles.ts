@@ -1,9 +1,9 @@
 import styled from "styled-components";
-
+import heroImage from '../../assets/hero.jpg';
 
 export const HeroSection = styled.section`
   background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem),
-    url(/hero.jpg);
+    url(${heroImage});
   background-position: center, bottom left;
   background-size: cover;
   height: 100vh;
@@ -45,7 +45,7 @@ export const HeroSection = styled.section`
 
   @media (max-width: 900px) {
     background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent),
-      url(/hero.jpg);
+      url(${heroImage});;
     background-position: center, bottom;
     background-size: cover;
     align-items: flex-start;
