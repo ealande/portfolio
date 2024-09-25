@@ -10,7 +10,7 @@ const Header = () => {
     <HeroSection className="light hero" >
       <div className="heroInner" >
         <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-          <HeroImage src={profileImage}>
+          <HeroImage alt="profile image" src={profileImage}>
           </HeroImage>
         </div>
         <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">

@@ -4,12 +4,13 @@ import { Stack } from './styles';
 
 interface TechsProps {
   imageslink: string;
+  alt: string;
 }
 
-const Techs: React.FC<TechsProps> = ({ imageslink }) => {
+const Techs: React.FC<TechsProps> = ({ imageslink, alt }) => {
   return (
     <>
-      <Stack data={imageslink} width="80px" height="80px"></Stack>
+      <Stack alt={alt} src={imageslink} width="80px" height="80px"></Stack>
     </>
   );
 };

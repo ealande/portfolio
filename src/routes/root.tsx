@@ -22,20 +22,20 @@ const Root = () => {
 
       <SectionAos id="about" title="My Toolset" subtitle="" backgroundColor="#E0FFF5" >
         <div className='techsContainer'>
-          <Techs imageslink="/c.svg"></Techs>
-          <Techs imageslink="/angular.svg"></Techs>
-          <Techs imageslink="/react.svg"></Techs>
-          <Techs imageslink="/redux.svg"></Techs>
-          <Techs imageslink="/typescript.svg"></Techs>
-          <Techs imageslink="/linux.svg"></Techs>
-          <Techs imageslink="/docker.svg"></Techs>
-          <Techs imageslink="/java.svg"></Techs>
-          <Techs imageslink="/postgresql.svg"></Techs>
-          <Techs imageslink="/html.svg"></Techs>
-          <Techs imageslink="/css.svg"></Techs>
-          <Techs imageslink="/bootstrap.svg"></Techs>
-          <Techs imageslink="/git.svg"></Techs>
-          <Techs imageslink="/insomnia.svg"></Techs>
+          <Techs alt="C language" imageslink="/c.svg"></Techs>
+          <Techs alt="Angular" imageslink="/angular.svg"></Techs>
+          <Techs alt="React" imageslink="/react.svg"></Techs>
+          <Techs alt="Redux" imageslink="/redux.svg"></Techs>
+          <Techs alt="Typescript" imageslink="/typescript.svg"></Techs>
+          <Techs alt="Linux" imageslink="/linux.svg"></Techs>
+          <Techs alt="Docker" imageslink="/docker.svg"></Techs>
+          <Techs alt="Java" imageslink="/java.svg"></Techs>
+          <Techs alt="Postgresql" imageslink="/postgresql.svg"></Techs>
+          <Techs alt="HTML" imageslink="/html.svg"></Techs>
+          <Techs alt="CSS" imageslink="/css.svg"></Techs>
+          <Techs alt="Bootstrap" imageslink="/bootstrap.svg"></Techs>
+          <Techs alt="GIT" imageslink="/git.svg"></Techs>
+          <Techs alt="Insomnia" imageslink="/insomnia.svg"></Techs>
         </div>
       </SectionAos>
 
