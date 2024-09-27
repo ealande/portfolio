@@ -47,6 +47,7 @@ export const ProjectLink = styled.a`
 
   &:hover {
     text-decoration: underline;
+    color:#78D5A3
   }
 `;
 

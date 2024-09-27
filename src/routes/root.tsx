@@ -7,6 +7,7 @@ import Footer from '../components/footer/Footer.tsx';
 import 'aos/dist/aos.css';
 import Techs from '../components/tech/Tech.tsx';
 import GitHubRepo from '../components/githubRepos/GitHubRepo.tsx';
+import FrontProjects from '../components/frontProjects/FrontProjects.tsx';
 
 
 const Root = () => {
@@ -67,7 +68,7 @@ const Root = () => {
 
       </SectionAos>
 
-      <SectionAos id="projects" title="Projects" subtitle="" backgroundColor="#DFF8E1"><GitHubRepo /></SectionAos>
+      <SectionAos id="projects" title="Projects" subtitle="" backgroundColor="#DFF8E1"><FrontProjects /><GitHubRepo /></SectionAos>
 
       <Footer />
     </>
