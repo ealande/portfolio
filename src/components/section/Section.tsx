@@ -5,7 +5,6 @@ import { ReactNode } from 'react';
 interface SectionProps {
   id: string;
   title: string;
-  subtitle: string;
   children?: ReactNode;
   backgroundColor: string;
 
@@ -14,7 +13,6 @@ interface SectionProps {
 const SectionAos: React.FC<SectionProps> = ({
   id,
   title,
-  subtitle,
   children,
   backgroundColor,
 }) => {
@@ -27,7 +25,6 @@ const SectionAos: React.FC<SectionProps> = ({
       style={{ backgroundColor }}
     >
       <h2>{title}</h2>
-      <h2>{subtitle}</h2>
       <p className='techs'>{children}</p>
     </SectionA>
   );

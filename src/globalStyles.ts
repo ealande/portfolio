@@ -52,11 +52,54 @@ button {
 
 .techsContainer {
   display: flex;
-  justify-content: space-between;
-  @media (max-width: 1000px) {
-    display: block;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; /* Align items vertically */
+  gap: 1.5rem; 
+  padding: 2rem;
+
 }
+
+@media (max-width: 1000px) {
+  .techsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
+
+
+.aboutMeContainer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1;
+  margin: 1.5rem 0;
+  padding: 0 1rem 1rem 10rem;
+  text-align: justify;
+  color: #333;   
+
+  background-color: #78D5A3"; 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    padding: 0 0.8rem;
+  }
+
+  @media (max-width: 480px) {
+
+    font-size: 1.2rem;
+
+  text-align: justify;
+    margin: 0.8rem 0;
+    padding: 0 0.6rem;
+    text-align: left;
+  }
+  }
 
 /* Beginning Timeline */
 
@@ -108,4 +151,6 @@ ul.timeline > li:before {
   font-weight: 800;
 }`
 
+
 export default GlobalStyle;
+

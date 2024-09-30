@@ -21,7 +21,23 @@ const Root = () => {
 
       <Header />
 
-      <SectionAos id="about" title="My Toolset" subtitle="" backgroundColor="#E0FFF5" >
+      <SectionAos id="about" title="About Me" backgroundColor="#E0FFF5" >
+        <div className='aboutMeContainer'>
+          <p>
+            I’m a dedicated full stack developer passionate about crafting impactful, user-centric web solutions.
+          </p>
+          <p>
+            With expertise in modern technologies like React, Angular, TypeScript, and Java, I focus on building dynamic, responsive, and scalable applications.
+          </p>
+          <p>
+            I thrive in staying ahead of the curve, continuously expanding my skill set to meet the demands of the ever-evolving tech landscape.
+          </p>
+          <p>
+            Let's build something amazing together!
+          </p>
+        </div>
+        <h2>My Toolset</h2>
+
         <div className='techsContainer' data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1800">
@@ -41,9 +57,9 @@ const Root = () => {
           <Techs alt="GIT" imageslink="/git.svg"></Techs>
           <Techs alt="Insomnia" imageslink="/insomnia.svg"></Techs>
         </div>
-      </SectionAos>
+      </SectionAos >
 
-      <SectionAos id="education" title="Education" subtitle="" backgroundColor="#78D5A3">
+      <SectionAos id="education" title="Education" backgroundColor="#78D5A3">
 
         <div className="container mt-5 mb-5" data-aos="fade-up"
           data-aos-easing="linear"
