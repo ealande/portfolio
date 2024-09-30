@@ -22,7 +22,9 @@ const Root = () => {
       <Header />
 
       <SectionAos id="about" title="About Me" backgroundColor="#E0FFF5" >
-        <div className='aboutMeContainer'>
+        <div className='aboutMeContainer' data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1800">
           <p>
             I’m a dedicated full stack developer passionate about crafting impactful, user-centric web solutions.
           </p>
