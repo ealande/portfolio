@@ -22,7 +22,9 @@ const Root = () => {
       <Header />
 
       <SectionAos id="about" title="My Toolset" subtitle="" backgroundColor="#E0FFF5" >
-        <div className='techsContainer'>
+        <div className='techsContainer' data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1800">
           <Techs alt="C language" imageslink="/c.svg"></Techs>
           <Techs alt="Angular" imageslink="/angular.svg"></Techs>
           <Techs alt="React" imageslink="/react.svg"></Techs>
@@ -42,7 +44,9 @@ const Root = () => {
 
       <SectionAos id="education" title="Education" subtitle="" backgroundColor="#78D5A3">
 
-        <div className="container mt-5 mb-5">
+        <div className="container mt-5 mb-5" data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1800">
           <div className="row">
             <div className="col-md-6 offset-md-3">
               <ul className="timeline">
@@ -68,7 +72,11 @@ const Root = () => {
 
       </SectionAos>
 
-      <SectionAos id="projects" title="Projects" subtitle="" backgroundColor="#DFF8E1"><FrontProjects /><GitHubRepo /></SectionAos>
+      <SectionAos id="projects" title="Projects" subtitle="" backgroundColor="#DFF8E1">
+        <FrontProjects />
+        <GitHubRepo />
+      </SectionAos>
+
 
       <Footer />
     </>

@@ -4,7 +4,10 @@ export const ProjectsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center; /* Center content on smaller screens */
+  justify-content: center;
+data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1800"
 
   @media (max-width: 768px) {
     gap: 10px;

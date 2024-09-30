@@ -59,7 +59,11 @@ const GitHubRepo: React.FC = () => {
 
   return (
     <div>
-      <RepoContainer style={paddingZero}>
+      <RepoContainer
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1800"
+        style={paddingZero}>
         {repos.map(repo => (
           <RepoBox key={repo.id}>
             <GitImg src="/github-svgrepo-com.svg" />

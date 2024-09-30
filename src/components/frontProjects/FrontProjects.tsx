@@ -22,7 +22,9 @@ const updatedProjects = [
 
 const FrontProjects = () => {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1400">
       {updatedProjects.map((project) => (
         <ProjectCard key={project.id}>
           <a href={project.url} target="_blank" rel="noopener noreferrer">
