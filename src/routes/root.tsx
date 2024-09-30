@@ -30,6 +30,7 @@ const Root = () => {
           <Techs alt="React" imageslink="/react.svg"></Techs>
           <Techs alt="Redux" imageslink="/redux.svg"></Techs>
           <Techs alt="Typescript" imageslink="/typescript.svg"></Techs>
+          <Techs alt="Javascript" imageslink="/jsLogo.svg"></Techs>
           <Techs alt="Linux" imageslink="/linux.svg"></Techs>
           <Techs alt="Docker" imageslink="/docker.svg"></Techs>
           <Techs alt="Java" imageslink="/java.svg"></Techs>

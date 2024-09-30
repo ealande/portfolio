@@ -13,7 +13,7 @@ const Header = () => {
           <HeroImage alt="profile image" src={profileImage}>
           </HeroImage>
         </div>
-        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
           <h1>Hi! <br /> I'm Erick Lima 😊</h1>
           <h2>Full Stack Web Developer</h2>
           <a href="/CVen.pdf" className="btn btn-light" >

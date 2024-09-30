@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SectionA = styled.section`
   padding: 5rem 3rem 6rem;
    h2 {
-    color: #333333;
+    color: #1a1a1a;
     display: flex;
     justify-content: center;
     font-weight: 900;
