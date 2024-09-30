@@ -38,11 +38,16 @@ const Root = () => {
             Let's build something amazing together!
           </p>
         </div>
-        <h2>My Toolset</h2>
+        <div data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1800">
+
+          <h2>My Toolset</h2>
+        </div>
 
         <div className='techsContainer' data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="1800">
+          data-aos-duration="2000">
           <Techs alt="C language" imageslink="/c.svg"></Techs>
           <Techs alt="Angular" imageslink="/angular.svg"></Techs>
           <Techs alt="React" imageslink="/react.svg"></Techs>
