@@ -79,7 +79,6 @@ button {
   text-align: justify;
   color: #333;   
 
-  background-color: #78D5A3"; 
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -93,8 +92,6 @@ button {
   @media (max-width: 480px) {
 
     font-size: 1.2rem;
-
-  text-align: justify;
     margin: 0.8rem 0;
     padding: 0 0.6rem;
     text-align: left;
