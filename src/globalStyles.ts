@@ -87,6 +87,7 @@ button {
     font-size: 1.4rem;
     margin: 1rem 0;
     padding: 0 0.8rem;
+    text-align: justify;
   }
 
   @media (max-width: 480px) {
@@ -94,7 +95,7 @@ button {
     font-size: 1.2rem;
     margin: 0.8rem 0;
     padding: 0 0.6rem;
-    text-align: left;
+    text-align: justify;
   }
   }
 
