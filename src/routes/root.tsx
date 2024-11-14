@@ -25,16 +25,10 @@ const Root = () => {
         <div className='aboutMeContainer' data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1800">
-          <p>
-            I’m a dedicated full stack developer passionate about crafting impactful, user-centric web solutions.
-          </p>
-          <p>
-            With expertise in modern technologies like React, Angular, TypeScript, and Java, I focus on building dynamic, responsive, and scalable applications.
-          </p>
-          <p>
+          <p style="line-height: 1.8em">
+            I’m a dedicated full stack developer passionate about crafting impactful, user-centric web solutions. 
+            With expertise in modern technologies like React, Angular, TypeScript, and Java, I focus on building dynamic, responsive, and scalable applications. 
             I thrive in staying ahead of the curve, continuously expanding my skill set to meet the demands of the ever-evolving tech landscape.
-          </p>
-          <p>
             Let's build something amazing together!
           </p>
         </div>
