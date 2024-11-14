@@ -75,7 +75,7 @@ button {
   font-size: 1.4rem;
   line-height: 1;
   margin: 1.5rem 0;
-  padding: 0 0.2em 0.2em 10rem;
+  padding: 0 0.2em 0.2em 0.2em;
   text-align: justify;
   color: #333;   
 
